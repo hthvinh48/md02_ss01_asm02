@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ss01_asm02 {
+public class ss01Asm02 {
     public static void main(String[] args) {
         int firstNumber;
         int secondNumber;
