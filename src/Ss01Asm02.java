@@ -2,16 +2,13 @@ import java.util.Scanner;
 
 public class Ss01Asm02 {
     public static void main(String[] args) {
-        int firstNumber = 0;
-        int secondNumber = 0;
-
         try (Scanner input = new Scanner(System.in)) {
             while (true) {
                 try {
                     System.out.print("Nhập số thứ nhất (firstNumber): ");
-                    firstNumber = Integer.parseInt(input.nextLine());
+                    int firstNumber = Integer.parseInt(input.nextLine());
                     System.out.print("Nhập số thứ hai (secondNumber): ");
-                    secondNumber = Integer.parseInt(input.nextLine());
+                    int secondNumber = Integer.parseInt(input.nextLine());
 
                     if (secondNumber == 0) {
                         System.out.println("Không thể thực hiện phép chia vì giá trị thứ 2 bằng 0!");
